@@ -36,7 +36,7 @@ Every entry in the root array is a Loadout.
 * "drawableId" the drawable ID to set this component to. For simple trainer users: first number as listed on the clothes menu, minus 1.
 * "textureId" the texture ID to set this component to. For simple trainer users: third number as listed on the clothes menu, minus 1.
 
-### PedsComponent (must specify type in JSON)
+### PedsProp (must specify type in JSON)
 * "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net"
 * "propId" one of the following: Hats, Glasses, Ears, Watches
 * "drawableId" the drawable ID to set this component to. For simple trainer users: first number as listed on the clothes menu, minus 1.
