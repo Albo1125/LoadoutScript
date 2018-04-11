@@ -48,6 +48,7 @@ Please view LICENSE.md. Improvements and new feature additions are very welcome,
 ## Libraries used (many thanks to their authors)
 * [NativeUI FiveM Port](https://github.com/citizenfx/NativeUI)
 * [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
+* [CitizenFX.Core](https://github.com/citizenfx/fivem)
 
 ## Screenshots
 ![LoadoutScript](https://image.prntscr.com/image/E-Mgy1z8RK6HFO1_Io-KLA.png)
