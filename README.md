@@ -36,7 +36,7 @@ Every entry in the root array is a Loadout.
 * "drawableId" the drawable ID to set this component to. For simple trainer users: first number as listed on the clothes menu, minus 1.
 * "textureId" the texture ID to set this component to. For simple trainer users: third number as listed on the clothes menu, minus 1.
 
-### PedsComponent (must specify type in JSON)
+### PedsProp (must specify type in JSON)
 * "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net"
 * "propId" one of the following: Hats, Glasses, Ears, Watches
 * "drawableId" the drawable ID to set this component to. For simple trainer users: first number as listed on the clothes menu, minus 1.
@@ -48,6 +48,7 @@ Please view LICENSE.md. Improvements and new feature additions are very welcome,
 ## Libraries used (many thanks to their authors)
 * [NativeUI FiveM Port](https://github.com/citizenfx/NativeUI)
 * [Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
+* [CitizenFX.Core](https://github.com/citizenfx/fivem)
 
 ## Screenshots
 ![LoadoutScript](https://image.prntscr.com/image/E-Mgy1z8RK6HFO1_Io-KLA.png)
