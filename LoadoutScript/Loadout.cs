@@ -13,7 +13,6 @@ namespace LoadoutScript
     {
         public string Division, Name, PedModelName;
         public bool TaserOption;
-        private Model pedmodel;
 
         [JsonProperty(ItemConverterType = typeof(StringEnumConverter))]
         public WeaponHash[] WeaponHashes;
