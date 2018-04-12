@@ -1,5 +1,5 @@
 # LoadoutScript
-LoadoutScript is a resource for FiveM by Albo1125 that allows players to easily equip loadouts read from a json file, rather than having to set a bunch of component and prop options manually every time. Screenshots can be found at the bottom.
+LoadoutScript is a resource for FiveM by Albo1125 that allows players to easily equip loadouts read from a json file, rather than having to set a ped model and a bunch of components and prop options manually every time you spawn. It also allows you to specify which weapons are given when equipping a loadout. You can categorize loadouts into divisions, accessible from a NativeUI menu. Screenshots can be found at the bottom.
 
 ## Installation & Usage
 1. Download the latest release.
