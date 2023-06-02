@@ -10,7 +10,7 @@ namespace LoadoutScript.PedCustomisables
     /// </summary>
     internal class PedsProp : IPedCustomisable
     {
-        public enum PedProps { Hats, Glasses, Ears, Watches };
+        public enum PedProps { Hats, Glasses, Ears, Watches = 6, Bracelets = 7 };
 
         [JsonConverter(typeof(StringEnumConverter))]
         public PedProps propId;
