@@ -60,7 +60,7 @@ namespace LoadoutScript
                 Game.PlayerPed.Weapons.RemoveAll();
                 foreach (WeaponHash hash in WeaponHashes)
                 {
-                    Game.PlayerPed.Weapons.Give(hash, -1, false, true);
+                    Game.PlayerPed.Weapons.Give(hash, 1000, false, true);
                     await BaseScript.Delay(50);
                 }
                 if (taser)

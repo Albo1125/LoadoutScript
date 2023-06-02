@@ -15,13 +15,21 @@
             "componentId":"Acc1",
             "drawableId":1,
             "textureId":0
-         }
+         },
+		 {
+		    "$type":"LoadoutScript.PedCustomisables.FMSCustomisable, LoadoutScript.net",
+		    "uniformTypeName": "SMYCOP01 Namebadge"
+		 },
       ],
       "LoadoutOptions":[
          {
             "Name":"Head",
             "NoneOption":false,
             "OptionNameToCustomisable":{
+			   "FMS":{
+				  "$type":"LoadoutScript.PedCustomisables.FMSCustomisable, LoadoutScript.net",
+				  "uniformTypeName": "SMYCOP01 Head"
+			   },
                "Dark":{
                   "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
                   "componentId":"Head",

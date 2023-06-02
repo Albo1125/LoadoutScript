@@ -29,6 +29,6 @@ namespace LoadoutScript.PedCustomisables
         }
 
         public void SetPedCustomisable(Ped p)
-            => Function.Call(Hash.SET_PED_PROP_INDEX, p, (int)propId, drawableId, textureId, true);
+            => API.SetPedPropIndex(p.Handle, (int)propId, drawableId, textureId, true);
     }
 }

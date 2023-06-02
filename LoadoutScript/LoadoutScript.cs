@@ -15,9 +15,12 @@ namespace LoadoutScript
     public class LoadoutScript : BaseScript
     {
         public static MenuPool _menuPool = new MenuPool();
-        private static UIMenu mainMenu;
+        public static MenuPool fmsmenuPool = new MenuPool();
+        private static UIMenu mainMenu, fmsUniformMenu;
         private static List<LoadoutSubMenu> loadoutsubmenus = new List<LoadoutSubMenu>();
+        private bool awaitingFmsUniforms = false;
         protected bool initialized = false;
+        internal static FMSUniform[] FMSUniforms = new FMSUniform[0];
 
         public LoadoutScript()
         {
@@ -26,9 +29,16 @@ namespace LoadoutScript
             mainMenu = new UIMenu("Loadouts", "");
             _menuPool.Add(mainMenu);
 
+            fmsUniformMenu = new UIMenu("FMS Uniforms", "");
+            fmsmenuPool.Add(fmsUniformMenu);
+
             //Deserialize the loadouts.json file.
             string resourceName = API.GetCurrentResourceName();
             string loadouts = API.LoadResourceFile(resourceName, "loadouts.json");
+            if (string.IsNullOrWhiteSpace(loadouts))
+            {
+                loadouts = "[]";
+            }
             Loadout[] AllLoadouts = JsonConvert.DeserializeObject<Loadout[]>(loadouts, new JsonSerializerSettings
             {
                 TypeNameHandling = TypeNameHandling.Auto
@@ -61,10 +71,68 @@ namespace LoadoutScript
             EventHandlers["Loadouts:ShowMenu"] += new Action<dynamic>((dynamic) =>
             {
                 mainMenu.Visible = true;
+                TriggerServerEvent("fms:fetchuniforms");
+            });
+
+            EventHandlers["Loadouts:FMSUniforms"] += new Action<dynamic>((dynamic) =>
+            {
+                awaitingFmsUniforms = true;
+                TriggerServerEvent("fms:fetchuniforms");
+            });
+
+            EventHandlers["fms:pushuniforms"] += new Action<List<dynamic>>((List<dynamic> uniformslist) =>
+            {
+                FMSUniform[] uniformsarr = uniformslist.Select(x => new FMSUniform(x.uniformname, x.gametype, x.componentid, x.drawableid, x.textureid)).ToArray();
+                if (!uniformsarr.SequenceEqual(FMSUniforms))
+                {
+                    FMSUniforms = uniformsarr;
+                    populateFmsUniformsMenu();
+                }
+
+                if (!awaitingFmsUniforms)
+                {
+                    return;
+                }
+                awaitingFmsUniforms = false;
+                fmsUniformMenu.Visible = true;
             });
 
             Main();
 
+        }
+
+        public void populateFmsUniformsMenu()
+        {
+            Debug.WriteLine("Refreshing FMS Uniforms menu");
+            fmsmenuPool.CloseAllMenus();
+            fmsUniformMenu = new UIMenu("FMS Uniforms", "");
+            fmsmenuPool = new MenuPool();
+
+            foreach (FMSUniform f in FMSUniforms)
+            {
+                UIMenuItem i = new UIMenuItem(f.uniformname, f.gametype + ". Component " + f.componentid + " Drawable " + f.drawableid + " Texture " + f.textureid);
+                fmsUniformMenu.AddItem(i);
+            }
+
+            fmsUniformMenu.OnItemSelect += (sender, selectedItem, index) =>
+            {
+                FMSUniform f = FMSUniforms[index];
+                var c = f.GetPedCustomisable();
+                if (c == null)
+                {
+                    Debug.WriteLine("Could not get PedCustomisable");
+                    return;
+                }
+
+                c.SetPedCustomisable(this.LocalPlayer.Character);
+            };
+
+            
+            fmsUniformMenu.MouseControlsEnabled = false;
+            fmsUniformMenu.MouseEdgeEnabled = true;
+            fmsmenuPool.Add(fmsUniformMenu);
+            fmsUniformMenu.RefreshIndex();
+            fmsmenuPool.RefreshIndex();
         }
 
         /// <summary>
@@ -87,6 +155,7 @@ namespace LoadoutScript
             {
                 await Delay(0);
                 _menuPool.ProcessMenus();
+                fmsmenuPool.ProcessMenus();
             }
         }
     }

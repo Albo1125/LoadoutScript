@@ -29,6 +29,6 @@ namespace LoadoutScript.PedCustomisables
         }
 
         public void SetPedCustomisable(Ped p)
-            => Function.Call(Hash.SET_PED_COMPONENT_VARIATION, p, componentId, drawableId, textureId, 2);
+            => API.SetPedComponentVariation(p.Handle, (int)componentId, drawableId, textureId, 2);
     }
 }
