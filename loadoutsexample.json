@@ -1,823 +1,823 @@
 [
    {
-      "Division":"LRT",
-      "Name":"Stab-Vest",
-      "TaserOption":true,
-      "PedModelName":"s_m_y_cop_01",
-      "WeaponHashes":[
+      "Division": "LRT",
+      "Name": "Stab-Vest",
+      "TaserOption": true,
+      "PedModelName": "s_m_y_cop_01",
+      "WeaponHashes": [
          "Nightstick",
          "Flashlight",
          "FireExtinguisher"
       ],
-      "DefaultCustomisables":[
+      "DefaultCustomisables": [
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-            "componentId":"Acc1",
-            "drawableId":1,
-            "textureId":0
+            "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+            "componentId": "Acc1",
+            "drawableId": 1,
+            "textureId": 0
          },
-		 {
-		    "$type":"LoadoutScript.PedCustomisables.FMSCustomisable, LoadoutScript.net",
-		    "uniformTypeName": "SMYCOP01 Namebadge"
-		 },
+         {
+            "$type": "LoadoutScript.PedCustomisables.FMSCustomisable, LoadoutScript.net",
+            "uniformTypeName": "SMYCOP01 Namebadge"
+         }
       ],
-      "LoadoutOptions":[
+      "LoadoutOptions": [
          {
-            "Name":"Head",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-			   "FMS":{
-				  "$type":"LoadoutScript.PedCustomisables.FMSCustomisable, LoadoutScript.net",
-				  "uniformTypeName": "SMYCOP01 Head"
-			   },
-               "Dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Head",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "FMS": {
+                  "$type": "LoadoutScript.PedCustomisables.FMSCustomisable, LoadoutScript.net",
+                  "uniformTypeName": "SMYCOP01 Head"
                },
-               "Light":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":1,
-                  "textureId":0
+               "Dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 0,
+                  "textureId": 0
+               },
+               "Light": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 1,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Accessory",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "Glasses":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-                  "propId":"Glasses",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Accessory",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "Glasses": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+                  "propId": "Glasses",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Flat Cap":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-                  "propId":"Hats",
-                  "drawableId":1,
-                  "textureId":0
+               "Flat Cap": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+                  "propId": "Hats",
+                  "drawableId": 1,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Epaulettes",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "PC":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":1,
-                  "textureId":0
+            "Name": "Epaulettes",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "PC": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 1,
+                  "textureId": 0
                },
-               "Sergeant":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":1
+               "Sergeant": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 1
                },
-               "Inspector":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":0,
-                  "textureId":2
+               "Inspector": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 0,
+                  "textureId": 2
                },
-               "Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":4
+               "Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 4
                },
-               "Chief Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":5
+               "Chief Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 5
                },
-               "Asst. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":6
+               "Asst. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 6
                },
-               "Dept. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":2,
-                  "textureId":2
+               "Dept. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 2,
+                  "textureId": 2
                },
-               "Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":2,
-                  "textureId":3
+               "Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 2,
+                  "textureId": 3
                }
             }
          }
       ]
    },
    {
-      "Division":"LRT",
-      "Name":"Stab Vest (White Shirt)",
-      "TaserOption":true,
-      "PedModelName":"s_m_y_cop_01",
-      "WeaponHashes":[
+      "Division": "LRT",
+      "Name": "Stab Vest (White Shirt)",
+      "TaserOption": true,
+      "PedModelName": "s_m_y_cop_01",
+      "WeaponHashes": [
          "Nightstick",
          "Flashlight",
          "FireExtinguisher"
       ],
-      "DefaultCustomisables":[
+      "DefaultCustomisables": [
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-            "componentId":"Acc2",
-            "drawableId":1,
-            "textureId":0
+            "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+            "componentId": "Acc2",
+            "drawableId": 1,
+            "textureId": 0
          },
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-            "componentId":"Upper",
-            "drawableId":1,
-            "textureId":1
+            "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+            "componentId": "Upper",
+            "drawableId": 1,
+            "textureId": 1
          }
       ],
-      "LoadoutOptions":[
+      "LoadoutOptions": [
          {
-            "Name":"Hair",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "Dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Hair",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "Dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Light":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":1,
-                  "textureId":0
+               "Light": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 1,
+                  "textureId": 0
                },
-               "Half-Bald dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":2,
-                  "textureId":0
+               "Half-Bald dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 2,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Hats",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "Flat Cap":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-                  "propId":"Hats",
-                  "drawableId":1,
-                  "textureId":0
+            "Name": "Hats",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "Flat Cap": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+                  "propId": "Hats",
+                  "drawableId": 1,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Shirt Sleeves",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "Short":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Shirt Sleeves",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "Short": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Long":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":0
+               "Long": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Glasses",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "Black":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-                  "propId":"Glasses",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Glasses",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "Black": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+                  "propId": "Glasses",
+                  "drawableId": 0,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Epaulettes",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "PC":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":1,
-                  "textureId":0
+            "Name": "Epaulettes",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "PC": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 1,
+                  "textureId": 0
                },
-               "Sergeant":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":1,
-                  "textureId":1
+               "Sergeant": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 1,
+                  "textureId": 1
                },
-               "Inspector":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":2
+               "Inspector": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 2
                },
-               "Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":3
+               "Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 3
                },
-               "Chief Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":1
+               "Chief Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 1
                },
-               "Asst. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":4
+               "Asst. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 4
                },
-               "Dept. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":5
+               "Dept. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 5
                },
-               "Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":6
+               "Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 6
                }
             }
          }
       ]
    },
    {
-      "Division":"RPU",
-      "Name":"High-Vis",
-      "TaserOption":true,
-      "PedModelName":"s_m_y_sheriff_01",
-      "WeaponHashes":[
+      "Division": "RPU",
+      "Name": "High-Vis",
+      "TaserOption": true,
+      "PedModelName": "s_m_y_sheriff_01",
+      "WeaponHashes": [
          "Nightstick",
          "Flashlight",
          "FireExtinguisher"
       ],
-      "DefaultCustomisables":[
+      "DefaultCustomisables": [
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-            "componentId":"Lower",
-            "drawableId":1,
-            "textureId":0
+            "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+            "componentId": "Lower",
+            "drawableId": 1,
+            "textureId": 0
          },
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-            "componentId":"Acc2",
-            "drawableId":2,
-            "textureId":0
+            "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+            "componentId": "Acc2",
+            "drawableId": 2,
+            "textureId": 0
          }
       ],
-      "LoadoutOptions":[
+      "LoadoutOptions": [
          {
-            "Name":"Head",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "Dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Head",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "Dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Light":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":1,
-                  "textureId":0
+               "Light": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 1,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Accessory",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "Glasses":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-                  "propId":"Glasses",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Accessory",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "Glasses": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+                  "propId": "Glasses",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Flat Cap":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-                  "propId":"Hats",
-                  "drawableId":1,
-                  "textureId":0
+               "Flat Cap": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+                  "propId": "Hats",
+                  "drawableId": 1,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Epaulettes",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "PC":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Epaulettes",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "PC": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Sergeant":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":0,
-                  "textureId":1
+               "Sergeant": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 0,
+                  "textureId": 1
                },
-               "Inspector":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":0,
-                  "textureId":2
+               "Inspector": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 0,
+                  "textureId": 2
                },
-               "Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":1
+               "Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 1
                },
-               "Chief Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":2
+               "Chief Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 2
                },
-               "Asst. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":2
+               "Asst. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 2
                },
-               "Dept. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":3
+               "Dept. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 3
                },
-               "Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":4
+               "Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 4
                }
             }
          }
       ]
    },
    {
-      "Division":"RPU",
-      "Name":"Stab Vest",
-      "TaserOption":true,
-      "PedModelName":"s_m_y_marine_01",
-      "WeaponHashes":[
+      "Division": "RPU",
+      "Name": "Stab Vest",
+      "TaserOption": true,
+      "PedModelName": "s_m_y_marine_01",
+      "WeaponHashes": [
          "Nightstick",
          "Flashlight",
          "FireExtinguisher"
       ],
-      "DefaultCustomisables":[
+      "DefaultCustomisables": [
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-            "componentId":"Acc2",
-            "drawableId":1,
-            "textureId":0
+            "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+            "componentId": "Acc2",
+            "drawableId": 1,
+            "textureId": 0
          }
       ],
-      "LoadoutOptions":[
+      "LoadoutOptions": [
          {
-            "Name":"Hair",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "Dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Hair",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "Dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Light":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":1,
-                  "textureId":0
+               "Light": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 1,
+                  "textureId": 0
                },
-               "Half-Bald dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":2,
-                  "textureId":0
+               "Half-Bald dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 2,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Hats",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "Flat Cap":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-                  "propId":"Hats",
-                  "drawableId":1,
-                  "textureId":0
+            "Name": "Hats",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "Flat Cap": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+                  "propId": "Hats",
+                  "drawableId": 1,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Shirt Sleeves",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "Short":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Shirt Sleeves",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "Short": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Long":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":0
+               "Long": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Glasses",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "Black":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-                  "propId":"Glasses",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Glasses",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "Black": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+                  "propId": "Glasses",
+                  "drawableId": 0,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Extra Stab Vest",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "PC":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":1,
-                  "textureId":0
+            "Name": "Extra Stab Vest",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "PC": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 1,
+                  "textureId": 0
                },
-               "Sergeant":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":1,
-                  "textureId":1
+               "Sergeant": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 1,
+                  "textureId": 1
                },
-               "Inspector":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":1,
-                  "textureId":2
+               "Inspector": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 1,
+                  "textureId": 2
                },
-               "Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":1,
-                  "textureId":4
+               "Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 1,
+                  "textureId": 4
                },
-               "Chief Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":1,
-                  "textureId":5
+               "Chief Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 1,
+                  "textureId": 5
                },
-               "Asst. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":1,
-                  "textureId":6
+               "Asst. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 1,
+                  "textureId": 6
                },
-               "Dept. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":2,
-                  "textureId":0
+               "Dept. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 2,
+                  "textureId": 0
                },
-               "Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":2,
-                  "textureId":1
+               "Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 2,
+                  "textureId": 1
                }
             }
          }
       ]
    },
    {
-      "Division":"RPU",
-      "Name":"Stab Vest (White Shirt)",
-      "TaserOption":true,
-      "PedModelName":"s_m_y_marine_01",
-      "WeaponHashes":[
+      "Division": "RPU",
+      "Name": "Stab Vest (White Shirt)",
+      "TaserOption": true,
+      "PedModelName": "s_m_y_marine_01",
+      "WeaponHashes": [
          "Nightstick",
          "Flashlight",
          "FireExtinguisher"
       ],
-      "DefaultCustomisables":[
+      "DefaultCustomisables": [
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-            "componentId":"Acc2",
-            "drawableId":1,
-            "textureId":0
+            "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+            "componentId": "Acc2",
+            "drawableId": 1,
+            "textureId": 0
          }
       ],
-      "LoadoutOptions":[
+      "LoadoutOptions": [
          {
-            "Name":"Hair",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "Dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Hair",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "Dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Light":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":1,
-                  "textureId":0
+               "Light": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 1,
+                  "textureId": 0
                },
-               "Half-Bald dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":2,
-                  "textureId":0
+               "Half-Bald dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 2,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Hats",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "Flat Cap":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-                  "propId":"Hats",
-                  "drawableId":1,
-                  "textureId":0
+            "Name": "Hats",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "Flat Cap": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+                  "propId": "Hats",
+                  "drawableId": 1,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Shirt Epaulettes",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "Inspector":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":2
+            "Name": "Shirt Epaulettes",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "Inspector": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 2
                },
-               "Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":3
+               "Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 3
                },
-               "Asst. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":4
+               "Asst. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 4
                },
-               "Dept. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":5
+               "Dept. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 5
                },
-               "Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":6
+               "Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 6
                }
             }
          },
          {
-            "Name":"Glasses",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "Black":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-                  "propId":"Glasses",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Glasses",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "Black": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+                  "propId": "Glasses",
+                  "drawableId": 0,
+                  "textureId": 0
                }
             }
          }
       ]
    },
    {
-      "Division":"RPU",
-      "Name":"Biker High-Vis",
-      "TaserOption":true,
-      "PedModelName":"s_m_y_marine_02",
-      "WeaponHashes":[
+      "Division": "RPU",
+      "Name": "Biker High-Vis",
+      "TaserOption": true,
+      "PedModelName": "s_m_y_marine_02",
+      "WeaponHashes": [
          "Nightstick",
          "Flashlight",
          "FireExtinguisher"
       ],
-      "DefaultCustomisables":[
+      "DefaultCustomisables": [
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-            "componentId":"Acc2",
-            "drawableId":2,
-            "textureId":0
+            "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+            "componentId": "Acc2",
+            "drawableId": 2,
+            "textureId": 0
          },
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-            "propId":"Hats",
-            "drawableId":0,
-            "textureId":0
+            "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+            "propId": "Hats",
+            "drawableId": 0,
+            "textureId": 0
          }
       ],
-      "LoadoutOptions":[
+      "LoadoutOptions": [
          {
-            "Name":"Head",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "Dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Head",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "Dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Light":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":1,
-                  "textureId":0
+               "Light": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 1,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Glasses",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "Black":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-                  "propId":"Glasses",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Glasses",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "Black": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+                  "propId": "Glasses",
+                  "drawableId": 0,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Epaulettes",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "PC":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Epaulettes",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "PC": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Sergeant":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":0,
-                  "textureId":1
+               "Sergeant": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 0,
+                  "textureId": 1
                },
-               "Inspector":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":0,
-                  "textureId":2
+               "Inspector": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 0,
+                  "textureId": 2
                },
-               "Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":1
+               "Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 1
                },
-               "Asst. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":3
+               "Asst. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 3
                },
-               "Chief Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":2
+               "Chief Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 2
                },
-               "Dept. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":3
+               "Dept. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 3
                },
-               "Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":4
+               "Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 4
                }
             }
          }
       ]
    },
    {
-      "Division":"TAS",
-      "Name":"Paramedic",
-      "TaserOption":true,
-      "PedModelName":"s_m_m_paramedic_01",
-      "WeaponHashes":[
+      "Division": "TAS",
+      "Name": "Paramedic",
+      "TaserOption": true,
+      "PedModelName": "s_m_m_paramedic_01",
+      "WeaponHashes": [
          "Flashlight"
       ],
-      "DefaultCustomisables":[
+      "DefaultCustomisables": [
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-            "componentId":"Acc2",
-            "drawableId":2,
-            "textureId":0
+            "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+            "componentId": "Acc2",
+            "drawableId": 2,
+            "textureId": 0
          }
       ],
-      "LoadoutOptions":[
+      "LoadoutOptions": [
          {
-            "Name":"Hair",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "Dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Hair",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "Dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Light":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":1,
-                  "textureId":0
+               "Light": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 1,
+                  "textureId": 0
                },
-               "Half-Bald dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":2,
-                  "textureId":0
+               "Half-Bald dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 2,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Hats",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "Cap":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
-                  "propId":"Hats",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Hats",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "Cap": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsProp, LoadoutScript.net",
+                  "propId": "Hats",
+                  "drawableId": 0,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Epaulettes",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "Paramedic":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":1,
-                  "textureId":1
+            "Name": "Epaulettes",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "Paramedic": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 1,
+                  "textureId": 1
                },
-               "Advanced Paramedic":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Upper",
-                  "drawableId":2,
-                  "textureId":2
+               "Advanced Paramedic": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Upper",
+                  "drawableId": 2,
+                  "textureId": 2
                }
             }
          }
       ]
    },
    {
-      "Division":"TFU",
-      "Name":"CTSFO",
-      "TaserOption":true,
-      "PedModelName":"s_m_y_SWAT_01",
-      "WeaponHashes":[
+      "Division": "TFU",
+      "Name": "CTSFO",
+      "TaserOption": true,
+      "PedModelName": "s_m_y_SWAT_01",
+      "WeaponHashes": [
          "Nightstick",
          "Flashlight",
          "FireExtinguisher",
@@ -826,35 +826,35 @@
          "SpecialCarbine",
          "SniperRifle"
       ],
-      "DefaultCustomisables":[
+      "DefaultCustomisables": [
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-            "componentId":"Acc1",
-            "drawableId":1,
-            "textureId":0
+            "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+            "componentId": "Acc1",
+            "drawableId": 1,
+            "textureId": 0
          }
       ],
-      "LoadoutOptions":[
+      "LoadoutOptions": [
          {
-            "Name":"Accessory",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "Goggles":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "propId":"Head",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Accessory",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "Goggles": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "propId": "Head",
+                  "drawableId": 0,
+                  "textureId": 0
                }
             }
          }
       ]
    },
    {
-      "Division":"TFU",
-      "Name":"Authorised Firearms Officer",
-      "TaserOption":true,
-      "PedModelName":"s_m_y_ranger_01",
-      "WeaponHashes":[
+      "Division": "TFU",
+      "Name": "Authorised Firearms Officer",
+      "TaserOption": true,
+      "PedModelName": "s_m_y_ranger_01",
+      "WeaponHashes": [
          "Nightstick",
          "Flashlight",
          "FireExtinguisher",
@@ -862,114 +862,114 @@
          "CarbineRifle",
          "SpecialCarbine"
       ],
-      "DefaultCustomisables":[
+      "DefaultCustomisables": [
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-            "componentId":"Acc1",
-            "drawableId":2,
-            "textureId":0
+            "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+            "componentId": "Acc1",
+            "drawableId": 2,
+            "textureId": 0
          },
          {
-            "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-            "componentId":"Head",
-            "drawableId":0,
-            "textureId":0
+            "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+            "componentId": "Head",
+            "drawableId": 0,
+            "textureId": 0
          }
       ],
-      "LoadoutOptions":[
+      "LoadoutOptions": [
          {
-            "Name":"Hair",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "Dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":1,
-                  "textureId":2
+            "Name": "Hair",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "Dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 1,
+                  "textureId": 2
                },
-               "Light":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":1,
-                  "textureId":0
+               "Light": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 1,
+                  "textureId": 0
                },
-               "Half-Bald dark":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Head",
-                  "drawableId":1,
-                  "textureId":1
+               "Half-Bald dark": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Head",
+                  "drawableId": 1,
+                  "textureId": 1
                }
             }
          },
          {
-            "Name":"Hats",
-            "NoneOption":true,
-            "OptionNameToCustomisable":{
-               "Cap":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "propId":"Hair",
-                  "drawableId":0,
-                  "textureId":0
+            "Name": "Hats",
+            "NoneOption": true,
+            "OptionNameToCustomisable": {
+               "Cap": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "propId": "Hair",
+                  "drawableId": 0,
+                  "textureId": 0
                },
-               "Helmet":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "propId":"Hair",
-                  "drawableId":3,
-                  "textureId":0
+               "Helmet": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "propId": "Hair",
+                  "drawableId": 3,
+                  "textureId": 0
                }
             }
          },
          {
-            "Name":"Epaulettes",
-            "NoneOption":false,
-            "OptionNameToCustomisable":{
-               "PC":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":2,
-                  "textureId":0
+            "Name": "Epaulettes",
+            "NoneOption": false,
+            "OptionNameToCustomisable": {
+               "PC": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 2,
+                  "textureId": 0
                },
-               "Sergeant":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":2,
-                  "textureId":1
+               "Sergeant": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 2,
+                  "textureId": 1
                },
-               "Inspector":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":2,
-                  "textureId":2
+               "Inspector": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 2,
+                  "textureId": 2
                },
-               "Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":2,
-                  "textureId":4
+               "Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 2,
+                  "textureId": 4
                },
-               "Chief Superintendent":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":2,
-                  "textureId":5
+               "Chief Superintendent": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 2,
+                  "textureId": 5
                },
-               "Asst. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":2,
-                  "textureId":6
+               "Asst. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 2,
+                  "textureId": 6
                },
-               "Dept. Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":2,
-                  "textureId":9
+               "Dept. Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 2,
+                  "textureId": 9
                },
-               "Chief Constable":{
-                  "$type":"LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
-                  "componentId":"Acc1",
-                  "drawableId":2,
-                  "textureId":10
+               "Chief Constable": {
+                  "$type": "LoadoutScript.PedCustomisables.PedsComponent, LoadoutScript.net",
+                  "componentId": "Acc1",
+                  "drawableId": 2,
+                  "textureId": 10
                }
             }
          }
